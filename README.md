@@ -25,6 +25,28 @@ The tool also implements encryption(symmetric) so all your API keys are secret &
 
 ## Features
 
+This tool can currently perform below tasks :
+
+- Reputation check of IP Addresses, Domains, URLs & File Hashes from :
+  - [Virustotal](https://www.virustotal.com/gui/home/upload)
+  - [Abuse IP DB](https://www.abuseipdb.com/)
+  - [Alienvault OTXv2](https://otx.alienvault.com/)
+  - [Spyse](https://spyse.com/)
+  - [Phishtank](https://phishtank.org/)
+  - [URL Scan](https://urlscan.io/)
+- Performing DNS, Reverse DNS, WHOIS, ISP Lookups
+- Email Security Analysis (Phishing Email Analysis)
+  - Verifying Email Address Reputation (Using [Emailrep.io](https://emailrep.io/))
+  - Analyzing a Phishing URL
+  - Snadbox a malicious file attachment present in email
+  - Email Header Analysis
+  - General Guidelines to perform phishing email analysis to identify threats
+- Decoding Office365 Safelink URLs, UTF-8 Encoded or Base64 encoded URLs
+- Unshortening the shortened URLs
+- Performing File Sandboxing for file and its associates file hash reputation
+- Sanitization/Masking of Indicators of Compromise(IOCs) so that same can be sent safely over an email
+- Performing Brand Monitoring Analysis
+
 ## Requirements.txt
 
 ## How to Use
