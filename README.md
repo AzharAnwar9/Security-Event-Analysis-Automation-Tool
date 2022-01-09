@@ -72,6 +72,14 @@ Here is how we achieved this :
 2. All subsequent executions will present you with the menu directly unless there is some issue with access to keys file.
 3. All the API Keys are managed separately in API keys file. The API keys are also encrypted with Symmetric key encryption so same can't be manipulated unless you have access to encryption key.
 4. The script is platform independent and the platform will be determined directly through script.
+5. For complete code review and easy understanding, different modules have been created in different script code and same can be imported based on the requirements in other parts of the script. You only need to execute single script code i.e main_file.py and based on selection respective modules will function.
+
+### 1. Getting Started
+In order to start utilizing the tool, you just need to clone this repository.
+```shell
+git clone https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool/
+```
+Once cloned successfully, change directory to Python-Website-Blocker/.
 
 ## Pull Requests
 
