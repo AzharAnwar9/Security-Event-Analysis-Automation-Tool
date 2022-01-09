@@ -52,9 +52,9 @@ if __name__ == '__main__' :
         try:
             config.fetch_api_key()
         except:
-            print("\n\nHey there, new user!!")
-            print("\nLooks like you have run this script for the first time or your key file has been removed.")
-            print("\nDirecting you to help & Configuration/Re-configuration menu to configure your script")
+            print("\n\nHey there, user!!")
+            print("\nLooks like you have run this script for the first time or you dont have sufficient permissions to access the encryption key or your key file has been removed.")
+            print("\nDirecting you to help & Configuration/Re-configuration menu to configure your script, if you have already configured you keys, please rerun tool with sufficient privileges")
             config.menu()
 
         selected_option=int(input())
