@@ -10,3 +10,11 @@ The tool also implements encryption(symmetric) so all your API keys are secret &
 1. Python 3.x installed on machine
 2. All dependencies mentioned in requirements.txt file.
 3. API keys from multiple threat intelligence platforms being used.
+
+## Table of Contents
+
+[Features](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#features)
+[Requirement.txt](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#requirements.txt)
+[How to Use](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#how-to-use)
+[Pull Requests](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#pull-requests)
+[Change Log & Future Updates](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#change-log-&-future-updates)
