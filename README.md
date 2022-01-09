@@ -139,6 +139,11 @@ If you have any valuable suggestions & changes to add, feel free to make a pull 
 
 ## Change Log & Future Updates
 
+This is the First Version of tool. Below are few planned future updates :
+
+1. Bulk Validation of IOCs
+2. Tools supporting Red Team Exercises.
+
 ## Author
 
 [Azhar Chougule](https://github.com/AzharAnwar9/)
