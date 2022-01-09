@@ -15,26 +15,26 @@ The tool also implements encryption(symmetric) so all your API keys are secret &
 
 [Features](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#features)
 
-[Requirements.txt](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#requirements.txt)
+[Requirements.txt](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#requirementstxt)
 
 [How to Use](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#how-to-use)
 
 [Pull Requests](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#pull-requests)
 
-[Change Log & Future Updates](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#change-log-&-future-updates)
+[Change Log & Future Updates](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#change-log--future-updates)
 
-### Features
+## Features
 
-### Requirements.txt
+## Requirements.txt
 
-### How to Use
+## How to Use
 
-### Pull Requests
+## Pull Requests
 
 If you have any valuable suggestions & changes to add, feel free to make a pull request. Your contribution to the project is as important and appriciated as the inital release and I will make sure these are implemented with validation.
 
-### Change Log & Future Updates
+## Change Log & Future Updates
 
-### Author
+## Author
 
 [Azhar Chougule](https://github.com/AzharAnwar9/)
