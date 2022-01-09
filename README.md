@@ -89,7 +89,49 @@ Install all dependencies through requirements.txt file.
   ```
 ### 3. Running the script
 
-Once the dependencies are installed successfully, the tool is ready for use. RUn the script by executing ```shell python main_file.py ```.
+Once the dependencies are installed successfully, the tool is ready for use. Run the script by executing 
+```shell 
+python main_file.py
+```
+Upon successful execution of script for the first time, you will be directed to import your API Keys in to the tool. Check Requirements.txt step number 3 to generate the API Keys and import them during runtime.
+
+### 4. Tool is ready!!
+
+Once the API keys are successfully imported into the tool, the tool is ready to use. Simply navigate through the command options and perform almost all validation checks as you go along your security incident response process. 
+
+A simpler view of menu is given below for assistance :
+
+```shell
+1. Reputation/Blocklist Check (IPs, Domains, URLs, Hashes)
+  - Enter Respective entity to check for its reputation.
+2. DNS/WHOIS Lookup Options
+  i. Reverse DNS Lookup
+  ii. DNS Lookup
+  iii. WHOIS Lookup
+  iv. ISP Lookup
+3. Email Security (Phishing Email Analysis)
+  i. Email Address Verification
+  ii. Analyze a Phishing Site
+  iii. Sandbox an Email Attachment
+  iv. Email Header Analysis
+  v. General GUidelines for Identification of Phishing Attack
+4. URL Decoding for Investigation
+  i. Simple URL Decoder - UTF-8
+  ii. Base64 Decoder
+  iii. Office365 SafeLink Decoder
+  iv. UnShorten the URL
+5. File Upload for Sandboxing
+6. Sanitization of IOCs for email
+  i. Single Input
+  ii. Upload a file with multiple values(Bulk Upload)
+7. Brand Monitoring & Analysis
+  i. Check for Geography of URL
+  ii. Check for main UI of URL/Social Media Account/Mobile App
+  iii. Check for URL Reputation
+8. Help & Configuration/Re-configuration
+  i. Help Menu
+  ii. Configure or Re-configure API Keys
+```
 
 ## Pull Requests
 
