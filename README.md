@@ -101,7 +101,7 @@ Once the API keys are successfully imported into the tool, the tool is ready to 
 
 A simpler view of menu is given below for assistance :
 
-```shell
+```
 1. Reputation/Blocklist Check (IPs, Domains, URLs, Hashes)
   - Enter Respective entity to check for its reputation.
 2. DNS/WHOIS Lookup Options
