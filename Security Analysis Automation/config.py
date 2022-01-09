@@ -2,6 +2,7 @@ from cryptography.fernet import Fernet
 import ctypes
 import os
 import sys
+import webbrowser
 
 key_dictionary = dict()
 
@@ -30,7 +31,7 @@ def help_menu(selected_option):
         menu()
 
 def help_module():
-    print("Printing Help")
+    webbrowser.open('https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool/blob/main/README.md')
     menu()
 
 def api_key_config():
