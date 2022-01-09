@@ -1,2 +1,12 @@
 # Security-Event-Analysis-Automation-Tool
+
+## Overview
 A SOC Analyst's tool to automate the investigation &amp; validation of possible Indicators of Compromise (IOCs) and perform various tasks including Phishing Email Analysis & Brand Monitoring to fasten the incident response. The main goal of utilizing this tool is to automate as many validation points as possible being performed by Enterprise Security Operations Team while working on any security incident including brand monitoring and possible phishing attack.
+
+The tool also implements encryption(symmetric) so all your API keys are secret & safe and cannot be manipulated until the secret encryption key is used. You can anytime however edit your API keys if you have access to encryption key.
+
+## Pre-requisites
+
+1. Python 3.x installed on machine
+2. All dependencies mentioned in requirements.txt file.
+3. API keys from multiple threat intelligence platforms being used.
