@@ -79,7 +79,17 @@ In order to start utilizing the tool, you just need to clone this repository.
 ```shell
 git clone https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool/
 ```
-Once cloned successfully, change directory to Python-Website-Blocker/.
+Once cloned successfully, change directory to Security-Event-Analysis-Automation-Tool/Security Analysis Automation/.
+
+### 2. Requirements.txt
+
+Install all dependencies through requirements.txt file.
+  ```shell
+  pip install -r requirements.txt
+  ```
+### 3. Running the script
+
+Once the dependencies are installed successfully, the tool is ready for use. RUn the script by executing ```shell python main_file.py ```.
 
 ## Pull Requests
 
