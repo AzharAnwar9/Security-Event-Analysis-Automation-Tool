@@ -49,6 +49,19 @@ This tool can currently perform below tasks :
 
 ## Requirements.txt
 
+1. Python 3.x installed on machine
+2. Install all dependencies through requirements.txt file.
+  ```shell
+  pip install -r requirements.txt
+  ```
+3. Multiple threat intelligence platforms' APIs are being utilized in this script, hence API keys from these platforms are required to confirm full functionality of script. Create accounts using below links and capture the API Keys from the same. Further details on feeding keys to code will be discussed in [How to Use](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#how-to-use) section of README.md.
+  - [Virustotal API Key](https://developers.virustotal.com/reference)
+  - [Abuse IP DB](https://www.abuseipdb.com/api)
+  - [Alienvault OTXv2](https://otx.alienvault.com/api)
+  - [Spyse](https://spyse.com/api)
+  - [URL Scan](https://urlscan.io/docs/api/)
+  - [Emailrep.io](https://emailrep.io/api/)
+
 ## How to Use
 
 ## Pull Requests
