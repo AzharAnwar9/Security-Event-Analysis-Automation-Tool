@@ -64,6 +64,15 @@ This tool can currently perform below tasks :
 
 ## How to Use
 
+The script is simple to understand and use. It can be utilized to its full functionality without opening/editing source code. Isn't that great?
+
+Here is how we achieved this :
+
+1. Upon executing the main script for the first time, it will automatically direct you to configuration menu, where in you will be requested to enter the API keys of platforms used in tool
+2. All subsequent executions will present you with the menu directly unless there is some issue with access to keys file.
+3. All the API Keys are managed separately in API keys file. The API keys are also encrypted with Symmetric key encryption so same can't be manipulated unless you have access to encryption key.
+4. The script is platform independent and the platform will be determined directly through script.
+
 ## Pull Requests
 
 If you have any valuable suggestions & changes to add, feel free to make a pull request. Your contribution to the project is as important and appriciated as the inital release and I will make sure these are implemented with validation.
