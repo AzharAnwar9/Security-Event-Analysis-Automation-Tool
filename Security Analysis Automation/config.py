@@ -67,7 +67,11 @@ def api_key_config():
 
 def fetch_api_key():
     api_key_filename = 'apiKeyFileName.ini'
-    crypto_key_filename = 'cryptoKey.key'
+    os_platform = sys.platform
+    if (os_platform == 'win32'):
+        crypto_key_filename = 'cryptoKey.key'
+    else :
+        crypto_key_filename = '.cryptoKey.key'
     crypto_key = ''
 
     with open(crypto_key_filename, 'r') as key:
