@@ -38,6 +38,14 @@ if __name__ == '__main__' :
     "\nIndicators of Compromise (IOCs)")
     time.sleep(1)
     while True:
+        try:
+            config.fetch_api_key()
+        except:
+            print("\n\nHey there, user!!")
+            print("\nLooks like you have run this script for the first time or you dont have sufficient permissions to access the encryption key or your key file has been removed.")
+            print("\nDirecting you to help & Configuration/Re-configuration menu to configure your script, if you have already configured you keys, please rerun tool with sufficient privileges")
+            config.menu()
+            
         print("\nPlease select an option from below : ")
         print("OPTION 1: Reputation/Blocklist Check (IPs, Domains, URLs, Hashes)")
         print("OPTION 2: DNS/WHOIS Lookup Options")
@@ -48,15 +56,7 @@ if __name__ == '__main__' :
         print("OPTION 7: Brand Monitoring & Analysis")
         print("OPTION 8: Help & Configuration/Re-configuration")
         print("OPTION 0: Exit Tool")
-
-        try:
-            config.fetch_api_key()
-        except:
-            print("\n\nHey there, user!!")
-            print("\nLooks like you have run this script for the first time or you dont have sufficient permissions to access the encryption key or your key file has been removed.")
-            print("\nDirecting you to help & Configuration/Re-configuration menu to configure your script, if you have already configured you keys, please rerun tool with sufficient privileges")
-            config.menu()
-
+        
         selected_option=int(input())
         if 0 <= selected_option < 9:
             main_switch(selected_option)
