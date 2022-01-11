@@ -6,6 +6,7 @@ from PIL import Image
 import reputation_check
 import tkinter
 from tkinter import filedialog
+import webbrowser
 
 def menu():
     print("\n")
@@ -92,6 +93,5 @@ def header_analysis():
     menu()
 
 def guidelines():
-    img = Image.open('Phishing_Identification.png')
-    img.show()
+    webbrowser.open(r'Phishing_Identification.png')
     menu()
