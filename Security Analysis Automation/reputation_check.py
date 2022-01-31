@@ -45,7 +45,8 @@ def check_ip_reputation(ip):
         resp = json.loads(res_str)
         reference = "https://www.virustotal.com/gui/ip-address/"+ip
         print("IP Address                  :", ip)
-        print("IP Address Owner            :", str(resp['data']['attributes']['as_owner']))
+        if 'as_owner' in resp['data']['attributes']:
+            print("IP Address Owner            :", str(resp['data']['attributes']['as_owner']))
         print("Number of scan attempted    :", str(resp['data']['attributes']['last_analysis_stats']))
         print("Reputation                  :", str(resp['data']['attributes']['reputation']))
         print("\nNumber of Reportings      :", (int(resp['data']['attributes']['last_analysis_stats']['malicious']) + int(resp['data']['attributes']['last_analysis_stats']['suspicious'])))
