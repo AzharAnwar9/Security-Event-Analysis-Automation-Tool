@@ -2,6 +2,6 @@ cryptography==36.0.1
 emailrep==0.0.5
 ipwhois==1.2.0
 OTXv2==1.5.12
-Pillow==9.0.0
+Pillow>=9.0.1
 requests==2.26.0
 spyse_python==2.2.3
