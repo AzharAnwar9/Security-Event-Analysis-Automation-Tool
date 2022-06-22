@@ -60,7 +60,7 @@ This tool can currently perform below tasks :
   - [Alienvault OTXv2 API Key](https://otx.alienvault.com/api)
   - [Spyse API Key](https://spyse.com/api)
   - [URL Scan IO API Key](https://urlscan.io/docs/api/)
-  - [Emailrep.io API Key](https://emailrep.io/api/)
+  - [Emailrep.io API Key](https://emailrep.io/key/)
 
 ## How to Use
 
